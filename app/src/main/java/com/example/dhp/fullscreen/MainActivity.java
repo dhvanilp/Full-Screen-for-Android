@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         button1 = findViewById(R.id.button1);
         store = getSharedPreferences(mypreference, Context.MODE_PRIVATE);
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+    button1.performClick();
+    finish();
     }
 }

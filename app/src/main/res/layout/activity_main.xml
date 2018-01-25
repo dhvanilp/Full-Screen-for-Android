@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#262626"
+    android:background="#00262626"
     tools:context="com.example.dhp.fullscreen.MainActivity">
 
     <Button
@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="25dp"
         android:textSize="25dp"
-        android:textColor="#ffffff"
+        android:textColor="#00ffffff"
         android:padding="25dp"
         android:text="Toggle State" />
 
